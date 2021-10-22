@@ -13,5 +13,4 @@ const db = mysql.createConnection(
   console.log("Connected to the Employee Watcher database.")
 );
 
-
 module.exports = db;

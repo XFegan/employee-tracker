@@ -11,9 +11,9 @@ VALUES ("Engineer",100000,1),
 ("Sales Person",45000,4);
 
 INSERT INTO employee (first_name, last_name, role_id) 
-VALUES ("Geek", "Nerd", 1),
-("Famous", "Guy", 2),
-("Strict", "Person", 4),
-("Eddy", "joe", 3),
-("Melissa", "Capers", 2),
-("Micheal", "Clarke", 4);
+VALUES ("John", "Doe", 1),
+("Micheal", "Chan", 2),
+("Ashely", "Rodriguez", 4),
+("Kevin", "Smith", 3),
+("Tom", "Allen", 2),
+("Xavier", "Fegan", 4);
