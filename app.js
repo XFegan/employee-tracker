@@ -70,6 +70,7 @@ const viewAllRoles = (req, res) => {
   `;
   db.query(sql, (err, res) => {
     if (err) throw err;
+
     console.table(res);
     mainPrompt();
   });
@@ -83,6 +84,7 @@ const viewAllEmployees = (req, res) => {
   LEFT JOIN employee Manager ON employee.manager_id = Manager.id`;
   db.query(sql, (err, res) => {
     if (err) throw err;
+
     console.table(res);
     mainPrompt();
   });
@@ -171,6 +173,7 @@ const addEmployee = () => {
   const sql = `SELECT role.title, role.id FROM role`;
   db.query(sql, (err, res) => {
     if (err) throw err;
+
     inquirer
       .prompt([
         {
